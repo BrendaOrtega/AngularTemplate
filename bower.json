@@ -1,0 +1,25 @@
+{
+  "name": "brendi",
+  "homepage": "none",
+  "authors": [
+    "Fixter Geek"
+  ],
+  "description": "BlisS template",
+  "main": "../index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.6.3",
+    "angularfire": "^2.0.2",
+    "jQuery": "^3.1.1"
+  }
+}

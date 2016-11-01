@@ -1,0 +1,45 @@
+<html ng-app="brendi">
+<head>
+	<title>Puffu's Page</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/" type="image/png" sizes="16x16">
+    <!-- Español set -->
+    <meta charset="UTF-8">
+    <!-- tamaño correcto de pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <!-- Estilos -->
+    <!-- Font awezome -->
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css">
+    <!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+
+
+
+<!-- Principia el sitio -->
+
+	<h1>{{"BlisS"}}</h1>
+    <div class="carga"></div>
+    <main ng-view></main>
+
+<!-- End of Site -->
+
+
+
+	<!-- Jquery -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+    <!-- Todos los demás scripts  -->
+    <script> 
+    $(function(){
+      $("#includedContent").load("scripts.html"); 
+    });
+    </script> 
+    <div id="includedContent"></div>
+
+    
+</body>
+</html>
