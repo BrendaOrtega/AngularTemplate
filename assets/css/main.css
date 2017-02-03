@@ -1,4 +1,5 @@
 @import "_landing_component.css";
+@import "_tour_component.css";
 
 .carga{
   position: fixed;

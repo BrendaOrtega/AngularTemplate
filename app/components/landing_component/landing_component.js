@@ -16,4 +16,4 @@
 	.module('brendi')
 	.component('landingComponent',landing);
 
-})()
+})();

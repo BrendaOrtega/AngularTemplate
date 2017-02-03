@@ -22,10 +22,14 @@
 
 
     config.$inject = ['$routeProvider']
+    
     function config($routeProvider) {
         $routeProvider
             .when('/',{
                 template:`<landing-component></landing-component>`,
+            })
+            .when('/tour',{
+                template:`<tour-component></tour-component>`,
             })
 
 
