@@ -16,6 +16,9 @@
 		// 	$('div.no').toggle();
 		// 	$('div.si').hide();
 		// });
+		
+		console.log('ulis')
+
 		$('.si').hide();
 		$('#select').change(function(){
 			var option = $(this).val();

@@ -8,6 +8,7 @@ div, body, form{
 	height:1000px;
 	color:#63605F;
 
+
 }
 .forms{
 	margin-top:100px;
@@ -16,17 +17,24 @@ div, body, form{
 	width:50%;
 	margin-left:25%;
 	background-image:url('/assets/images/form-01.png');
-	position:cover;
+/*	position:cover;*/
+	background-color:white;
+}
+@media(max-width: 600px){
+	.forms{
+		width:90%;
+		margin-left:5%;
+	}
 }
 .forms h3{
 	margin:20px 0;
 }
-.formas{
+/*.formas{
 	width:80%;
 	margin-left:10%;
 	color:#63605F;
-}
-.formass{
+}*/
+/*.formass{
 	width:80%;
 	margin-left:20%;
 	color:#63605F;
@@ -35,8 +43,15 @@ div, body, form{
 	width:80%;
 	margin-left:0px;
 	color:#63605F;
-}
+}*/
 .fix{
 	margin-top:30px;
 	width:150px;
+}
+.padding{
+	padding-top:10px 
+}
+.recuadro{
+	margin:0 auto;
+	width:80%;
 }

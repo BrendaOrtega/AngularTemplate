@@ -8,7 +8,9 @@
 	}
 
 	function tourController($scope,$http){
-		
+		// console.log('lol');
+		// $(window).scrollTop();
+
 
 	} //controller
 

@@ -138,7 +138,9 @@ a:hover{
 	padding :5%;
 	max-height:300px;
 	width:auto;
+	margin:0 auto;
 }
+
  h3{
 	font-family:Gotam;
 }
@@ -334,6 +336,7 @@ textarea.form-control{
 	opacity:0.8;
 	position:absolute;
 	top:60%;
+	padding-bottom:15px;
 }
 .definicion{
 	font-family:Gotams;
@@ -437,6 +440,9 @@ textarea.form-control{
 @media (max-width: 768px ){
 	.textin{
 		font-size:12px;
+	}
+	.definicion{
+		text-align:center;
 	}
 }
 @media (max-width: 650px){

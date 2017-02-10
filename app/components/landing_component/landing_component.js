@@ -8,9 +8,12 @@
 	}
 
 	function landingController($scope,$http){
-		$('.botoncin').click(function(){
-			
+		
+		$('botoncin').click(function(){
+			console.log('lupis');
+			$('body').scrollTop();
 		})
+	
 
 	} //controller
 
