@@ -1,1 +1,83 @@
-_tour_component.css
+.guadalajara  h2{
+	font-family:Gotam;
+	margin:0;
+}
+.publi{
+	width:100%;
+	background-image: url('/assets/images/fondo3-01.png');
+	background-size:cover;
+}
+/*.guadalajara{
+	background-color:#8BBFC8;
+	background-color:#F9F1E2;
+	background-color:rgba(0,0,0,.2);
+	opacity:.8;
+	width:70%;
+	margin-left:15%;
+}*/
+.tarjeta{
+	background-color:white;
+	margin:10%;
+	position:relative;
+	max-height:423.13px;
+	/*border-radius:10px;*/
+}
+.publi p{
+	padding-top:15px;
+	margin-bottom:30px;
+	font-family:Gotam;
+
+}
+.descripcion{
+	padding:5%;
+	text-align:center;
+		font-family:Gotam;
+
+}
+.ilustracion{
+	width:100%;
+	height:auto;
+/*	border-radius:10px;*/
+}
+.icono{
+	width:35%;
+	position:absolute;
+	left:32.5%;
+	bottom:-10px;
+}
+.descripcion p {
+	font-family:Gotams;
+}
+.uno{
+	background-color:#8BBFC8;
+	border-radius:5px;
+	border:solid 1px #8BBFC8;
+	color:white;
+
+}
+.dos{
+	background-color:#B4C085;
+	border-radius:5px;
+	border:solid 1px #B4C085;
+	color:white;
+}
+.tres{
+	background-color:#CE7269;
+	border-radius:5px;
+	border:solid 1px #CE7269;
+	color:white;
+}
+.tit{
+	background-color:white;
+	width:50%;
+	margin-left:25%;
+	vertical-align:center;
+	border-radius:10px;
+}
+.caja{
+	padding:50px;
+}
+.parrafo{
+		color:#7c7c7c;
+
+}

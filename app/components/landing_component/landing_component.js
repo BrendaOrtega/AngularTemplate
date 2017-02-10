@@ -8,7 +8,9 @@
 	}
 
 	function landingController($scope,$http){
-		
+		$('.botoncin').click(function(){
+			
+		})
 
 	} //controller
 

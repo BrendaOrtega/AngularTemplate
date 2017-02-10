@@ -31,6 +31,9 @@
             .when('/tour',{
                 template:`<tour-component></tour-component>`,
             })
+            .when('/inscripcion',{
+                template: `<inscripcion-component></inscripcion-component>`,
+            })
 
 
 

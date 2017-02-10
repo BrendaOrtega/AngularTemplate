@@ -25,7 +25,7 @@ a:hover{
 	font-size:23px;
 	width:100%;
 	text-align:center;
-
+	
 	z-index:9999;
 
 }
@@ -37,7 +37,13 @@ a:hover{
 .pestana{
 	height:100%;
 	padding-top:3px;
-		background-color:#DA9569;
+	background-color:#DA9569;
+}
+a:focus .pestana{
+	background-color:#DA9569;
+
+	color:white;
+	transition:all 1s ease;
 }
 .pestana:hover{
 	background-color:white;
@@ -46,15 +52,32 @@ a:hover{
 	transition:all 1s ease;
 }
 
+
+
 .right{
 	float:right;
 }
-button{
+.btn{
 	background-color:#F49E68;
+	border-radius:10px;
+	color:white;
+	padding:3px 5px;
+	transition:all .5s ease;
+	border:#F49E68;
+	border:1px solid;
+
+}
+
+.botoncin{
+	background-color:#148B9C;
 	border-radius:10px;
 	border:transparent;
 	color:white;
-	padding:3px 5px;
+	padding:5px 7px;
+	transition:all .5s ease;
+	border:#148B9C;
+	border:1px solid;
+
 }
 .intro{
 	background-image:url('/assets/images/nuevo.gif');
@@ -187,7 +210,7 @@ margin-bottom:80px;
 
 }
 .info{
-	margin-top:20%;
+	margin-top:15%;
 }
 .foto{
 	width:55%;
@@ -242,12 +265,12 @@ ul.social li a {
 ul.social-buttons li i:hover,
 ul.social-buttons li i:focus,
 ul.social-buttons li i:active {
-  color: #F9C768;
+  color: #B4725F;
 }
 ul.social li i:hover,
 ul.social li i:focus,
 ul.social li i:active {
-  color: #F9C768;
+  color: #B4725F;
 }
 ul.list-inline {
   margin-bottom: 30px;
@@ -278,12 +301,19 @@ ul.politicas li a:hover{
 textarea.form-control{
 	height:135px;
 }
-.btn{
-	transition:all 1s ease;
-}
+
 .btn:hover{
 	background-color:white;
 	color:#DA9569;
+	border-color: #DA9569;
+	border:solid 1px;
+	
+}
+.botoncin:hover{
+	background-color:white;
+	color:#148B9C;
+	border-color:#148B9C;
+	border:solid 1px;
 	
 }
 .btn{
@@ -316,7 +346,7 @@ textarea.form-control{
 	text-align:justify;
 }
 .oswaldin{
-	background-image:url('/assets/fotos/oswaldo3-01.png');
+	background-image:url('/assets/fotos/oswaldo1-01.png');
 	background-size:cover;
 
 	margin: 0 auto;
@@ -329,7 +359,7 @@ textarea.form-control{
 	background-image:url('/assets/fotos/oswaldo2-01.png');
 }
 .saul{
-	background-image:url('/assets/fotos/saul-01.png');
+	background-image:url('/assets/fotos/saul1-01.png');
 	background-size:cover;
 	margin: 0 auto;
     border: 7px solid white;
@@ -341,7 +371,7 @@ textarea.form-control{
 	background-image:url('/assets/fotos/saul2-01.png');
 }
 .david{
-	background-image:url('/assets/fotos/david-01.png');
+	background-image:url('/assets/fotos/david2-01.png');
 	background-size:cover;
 	margin: 0 auto;
     border: 7px solid white;
@@ -350,10 +380,10 @@ textarea.form-control{
     height:150px;
 }
 .david:hover{
-	background-image:url('/assets/fotos/david2-01.png');
+	background-image:url('/assets/fotos/david1-01.png');
 }
 .martin{
-	background-image:url('/assets/fotos/martin-01.png');
+	background-image:url('/assets/fotos/martin1-01.png');
 	background-size:cover;
 	margin: 0 auto;
     border: 7px solid white;
@@ -365,7 +395,7 @@ textarea.form-control{
 	background-image:url('/assets/fotos/martin2-01.png');
 }
 .topi{
-	background-image:url('/assets/fotos/topi-01.png');
+	background-image:url('/assets/fotos/topi1-01.png');
 	background-size:cover;
 	margin: 0 auto;
     border: 7px solid white;
@@ -375,6 +405,28 @@ textarea.form-control{
 }
 .topi:hover{
 	background-image:url('/assets/fotos/topi2-01.png');
+}
+.bliss{
+	background-image:url('/assets/fotos/bliss1-01.png');
+	background-size:cover;
+	margin: 0 auto;
+    border: 7px solid white;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+}
+.bliss:hover{
+	background-image:url('/assets/fotos/bliss2-01.png');
+}
+.oscar{
+	background-image:url('/assets/fotos/oscar-01.png');
+	background-size:cover;
+	margin: 0 auto;
+    border: 7px solid white;
+    border-radius:50%;
+    width:150px;
+    height:150px;
+	
 }
 /*Inicia medias*/
 @media (max-width: 1024px) {
