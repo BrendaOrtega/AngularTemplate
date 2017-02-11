@@ -19,7 +19,7 @@
 	background-color:white;
 	margin:10%;
 	position:relative;
-	max-height:423.13px;
+	max-height:430px;
 	/*border-radius:10px;*/
 }
 .publi p{
@@ -36,7 +36,7 @@
 }
 .ilustracion{
 	width:100%;
-	height:auto;
+	max-height:204.64px;
 /*	border-radius:10px;*/
 }
 .icono{

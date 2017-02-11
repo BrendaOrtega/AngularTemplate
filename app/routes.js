@@ -34,7 +34,9 @@
             .when('/inscripcion',{
                 template: `<inscripcion-component></inscripcion-component>`,
             })
-
+            .when('/camp',{
+                template: `<camp-component></camp-component>`,
+            }) 
 
 
             // esta ruta está comentada porque es el modelo de una ruta solo accesable con login
