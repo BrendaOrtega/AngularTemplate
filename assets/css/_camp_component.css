@@ -1,5 +1,5 @@
 .cuadrado{
-	background-image:url('https://images.pexels.com/photos/237708/pexels-photo-237708.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+	background-image:url('https://images.pexels.com/photos/30112/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb');
 	background-size:cover;
 	background-position:center;
 /*	background-image:url('https://images.pexels.com/photos/6565/apple-desk-laptop-working.jpg?w=1260&h=750&auto=compress&cs=tinysrgb');
@@ -75,11 +75,15 @@ font-size:22px;
 .containers{
 	width:80%;
 	margin-left:10%;
-	height:800px;
+	height:900px;
+	position:relative;
+	z-index:9999;
 }
 .blanco{
 	background-color:white;
 	padding-bottom:10px;
+	margin-bottom:30px;
+	
 }
 .way{
 	font-size:40px;
@@ -120,7 +124,78 @@ font-size:22px;
 	margin-top:10px;
 }
 .campamento{
-	/*background-color:rgba(255,224,178,.2);*/
+	background-color:rgba(255,224,178,.2);
 	background-color:#F4F4F4;
+	
+
+}
+button{
+		font-family: Gotam;
+
+}
+.btn_in{
+	padding-top: 10px;
+	position:absolute;
+	width:50%;
+	bottom:-5px;
+	left:25%;
+	height:50px;
+	transition:all .5s ease;
+	z-index:-1;
+	background-color: #8BBFC8;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8rem;
+	letter-spacing: 1.5px;
+	font-family: Gotam;
+}
+.blanco:hover > .btn_in {
+	transform:translateY(40px);
+}
+.movil{
+	display:none;
+}
+.fafa{
+	padding-top:4px;
+	margin:0 5px;
+}
+@media(max-width: 430px){
+	.espacio{
+		top:50px;
+	}
+	.paths{
+		font-size:18px;
+	}
+	.btn_in{
+		bottom:-35px;
+
+	}
+	.blanco:hover > .btn_in{
+		transform:translateY(0);
+	}
+	.fecha{
+		margin-bottom:30px;
+	}
+	.pestana{
+		display:none;
+	}
+	.movil{
+		display:flex;
+	}
+	.containers{
+		height:1060px;
+		margin-bottom:30px;
+	}
 }
 
+@media(max-width: 380px){
+	.espacio{
+		top:20px;
+	}
+	.paths{
+		font-size:15px;
+	}
+	
+}

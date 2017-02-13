@@ -24,8 +24,9 @@ a:hover{
 	font-family: 'Baloo Thambi', cursive;
 	font-size:23px;
 	width:100%;
+	height: 30px;
 	text-align:center;
-	
+	background-color:#DA9569; 
 	z-index:9999;
 
 }
