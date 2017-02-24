@@ -17,7 +17,9 @@ a:hover{
 	margin-top:20px;
 
 }
-
+.inicio>.row>.col{
+	padding:0px;
+}
 .barra{
 	color:white;
 	text-decoration:none;
@@ -37,6 +39,7 @@ a:hover{
 }
 .pestana{
 	height:100%;
+	padding:0px;
 	padding-top:3px;
 	background-color:#DA9569;
 }
@@ -52,9 +55,9 @@ a:focus .pestana{
 	color:#DA9569;
 	transition:all 1s ease;
 }
-
-
-
+.pesta{
+	transition:all 1s ease;
+}
 .right{
 	float:right;
 }
@@ -102,6 +105,7 @@ a:focus .pestana{
 
 }
 .inicio{
+	width:100%;
 	height:auto;
 
 
@@ -323,7 +327,7 @@ textarea.form-control{
 	margin-top:30px;
 }
 .recuadro{
-	margin-top:30px;
+	padding-top:40px;
 }
 .copy{
 	background-color:#DA9569;
@@ -460,8 +464,12 @@ textarea.form-control{
 		justify-content:center;
 	}
 }
-@media (max-width: 425px){
+@media (max-width: 435px){
 	.definicion{
 		text-align:center;
 	}
+	.formulario{
+		top:50%;
+	}
+
 }

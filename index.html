@@ -1,5 +1,7 @@
 <html ng-app="brendi">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Puffu's Page</title>
     <!-- Favicon -->
     <link rel="icon" href="assets/images/" type="image/png" sizes="16x16">
@@ -23,10 +25,10 @@
     <div class='inicio'>
 
         <div class='row'>
-            <div class='col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-2  col-xs-8'>
+            <div class='col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-1  col-xs-7'>
                <a href="#/"> <img class='logo' style='height:70px' src="/assets/images/LOGIS-01.png"></a>
             </div>
-            <div class='col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-xs-4  '>
+            <div class='col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-xs-5  '>
                 <a href="#/inscripcion">
                         <button class='btn sesion2'>
                             Inscribirme
@@ -37,20 +39,19 @@
         </div>
     </div>
 </section>
+
     <div class='barra'>
-    <div class='movil'>
-     <span class='fafa'><i class="fa fa-bars" aria-hidden="true"></i>
-</span>
-        <span>Menu</span>
-       
-    </div>
-                <div class='row pesta'>
-                    <a href="#/camp"><div class='pestana col-lg-4 col-md-4 col-sm-4 col-xs-4'>
+        <div class='movil'>
+            <span class='fafa'><i class="fa fa-bars" aria-hidden="true"></i></span>
+            <span>Menu</span>    
+        </div>
+                <div id='mobil_bar' class='row pesta'>
+                    <a href="#/camp"><div class='pestana col-lg-4 col-md-4 col-sm-4 col-xs-12'>
                         Próximo FixterCamp<span></span></div></a>
-                    <a href="#/tour"><div class='pestana col-lg-4 col-md-4 col-sm-4 col-xs-4'>
+                    <a href="#/tour"><div class='pestana col-lg-4 col-md-4 col-sm-4 col-xs-12'>
                     FixterTour<span></span></div></a>
                     
-                    <a href="#/"><div class='pestana col-lg-4 col-md-4 col-sm-4 col-xs-4'>
+                    <a href="#/"><div class='pestana col-lg-4 col-md-3 col-sm-4 col-xs-12'>
                         Plataforma online<span></span></div></a>
                 </div>
         
@@ -150,6 +151,17 @@
     });
     </script> 
     <div id="includedContent"></div>
+
+    <script>
+    
+        $('.movil span i').click(function(){
+            $('#mobil_bar').toggleClass('pesta')
+
+        });
+        $('.pestana').click(function(){
+            $('#mobil_bar').toggleClass('pesta')
+        });
+    </script>
 
     
 </body>

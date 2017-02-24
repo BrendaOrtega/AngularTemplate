@@ -8,7 +8,9 @@
 	}
 
 	function campController($scope,$http){
-		
+		$(function () {
+  		$('[data-toggle="tooltip"]').tooltip()
+	});
 	
 	
 
